@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE bullets incremental new-feature
 
 # Riak Test Server
 
