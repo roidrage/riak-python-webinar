@@ -5,5 +5,9 @@
     {"section":"02_basic_operations"},
     {"section":"03_mapreduce"},
     {"section":"04_search"},
+    {"section":"05_luwak"},
+    {"section":"06_django"},
+    {"section":"07_test_server"},
+    {"section":"08_riagi"}
   ]
 }

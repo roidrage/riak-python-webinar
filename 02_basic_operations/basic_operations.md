@@ -1,32 +1,33 @@
-!SLIDE
+!SLIDE small
 
-# Basic Operations #
+## Basic Operations
 
     @@@ python
     import riak
 
     client = riak.RiakClient()
 
-!SLIDE
-
-# Different Host and Port #
-
-    @@@ python
-    client = riak.RiakClient(host="192.168.2.1", port=8080)
-
 !SLIDE small
 
-# Different Transports #
+## Different Host and Port
+
+    @@@ python
+    client = riak.RiakClient(host="192.168.2.1",
+                              port=8080)
+
+!SLIDE smaller
+
+## Different Transports
 
     @@@ python
     from riak.transports.pbc import RiakPbcTransport
 
     client = riak.RiakClient(transport_class=RiakPbcTransport,
-                             port=8087)
+                              port=8087)
 
-!SLIDE small
+!SLIDE smaller
 
-# Buckets #
+## Access Buckets
 
     @@@ python
     bucket = client.bucket("programming-languages")
@@ -35,40 +36,43 @@
 
     bucket.set_property({"allow_mult": True})
 
-!SLIDE small
+!SLIDE smaller
 
-# Objects #
+## Objects
 
     @@@ python
     data = {"type": "scripting", "flavour": "object-oriented"}
     python = bucket.new("python", data)
+    python.store(w=3)
 
 !SLIDE
 
-* Automatically chooses `application/json`
+### Automatically chooses `application/json`
 
-!SLIDE small
+!SLIDE smaller
 
-# Binary data #
+## Binary data
 
     @@@ python
     data = open("hulk.jpg").read()
-    hulk = bucket.new_binary("hulk", data, content_type="application/octet-stream")
+    hulk = bucket.new_binary("hulk", data)
     hulk.store()
 
-!SLIDE small
+!SLIDE smaller
 
-# Directly from file #
+## Directly from file
 
     @@@ python
     data = open("hulk.jpg").read()
     hulk = bucket.new_binary_from_file("hulk", "hulk.jpg")
     hulk.store()
 
-!SLIDE small
+!SLIDE smaller
 
-# Guesses the content type! #
+## Guesses the content type!
 
-    hulk.get_content_type() # "image/jpg"
-
+    @@@ python
+    print hulk.get_content_type()
+    
+    # "image/jpg"
 

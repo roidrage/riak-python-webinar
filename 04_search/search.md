@@ -7,43 +7,44 @@
 * Full Text Search
 * Scalable, Fault-Tolerant
 
-!SLIDE
+!SLIDE smaller new-feature
 
-# Enable Search for a Bucket #
+# Enable Search for a Bucket&sup1; #
 
     @@@ python
     bucket = client.bucket("programming-languages")
     if not bucket.search_enabled():
       bucket.enable_index()
 
-!SLIDE
+!SLIDE smaller
 
     @@@ python
     client.search("programming-languages", "type:scripting")
 
-!SLIDE
+!SLIDE bullets
 
 * Search Through Riak MapReduce
 * Returns Link Objects
 
-!SLIDE
+!SLIDE smaller
 
     @@@ python
-    results = client.search("programming-languages", "type:scripting")
+    results = client.search("programming-languages",
+                            "type:scripting")
     for doc in results:
       language = doc.get()
-
       print language.get_data()
 
-!SLIDE
+!SLIDE smaller
 
 # Search and MapReduce #
 
     @@@ python
-    query = client.search("programming-languages", "type:scripting")
+    query = client.search("programming-languages",
+                          "type:scripting")
     query.reduce_sort().reduce_limit(5).run()
 
-!SLIDE
+!SLIDE new-feature
 
 # Using the Solr Interface #
 

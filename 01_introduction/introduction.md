@@ -1,6 +1,15 @@
 !SLIDE 
 
-# Webinary: Riak and Python #
+# Webinar: Riak and Python #
+
+!SLIDE bullets 
+
+# Agenda
+
+* Using the Python Client
+* New Features
+* Django Integration
+* Code!
 
 !SLIDE bullets incremental
 
@@ -31,7 +40,7 @@
 
 * [Download](http://downloads.basho.com/riak-search/CURRENT/) and install Riak Search
 * Install the Riak Python client:
-  `pip install riak`
+* `pip install riak`
 
 !SLIDE bullets incremental
 
