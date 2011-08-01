@@ -38,11 +38,11 @@
 
 # Code!
 
-!SLIDE
+!SLIDE bullets
 
 # [It's Open Source](http://github.com/basho/riagi)!
 
-!SLIDE
+!SLIDE bullets
 
 # Deployment
 

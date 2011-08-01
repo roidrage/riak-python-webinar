@@ -8,6 +8,7 @@
     {"section":"05_luwak"},
     {"section":"06_django"},
     {"section":"07_test_server"},
-    {"section":"08_riagi"}
+    {"section":"08_riagi"},
+    {"section":"09_future"}
   ]
 }
