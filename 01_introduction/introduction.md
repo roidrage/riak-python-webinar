@@ -15,24 +15,26 @@
 
 # Why Python? #
 
-* Long history at Basho
-* Language of choice for several internal tools
-* Python one of the earliest supported languages
-* More and more Pythonistas discover Riak
+* Long History at Basho
+* Language of Choice for Several Internal Tools
+* Python one of the Earliest Supported Languages
+* More and More Pythonistas Discover Riak
 
 !SLIDE bullets incremental
 
 # Why Riak and Python? #
 
-* Scalable, distributed, fault-tolerant
+* Scalable
+* Distributed
+* Fault-tolerant
 
 !SLIDE bullets incremental
 
 # Use cases #
 
-* File Storage (Luwak)
 * Scalable Session Store
 * Scalable Full Text Search
+* File Storage (Luwak)
 
 !SLIDE bullets incremental
 

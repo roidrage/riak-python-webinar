@@ -34,7 +34,7 @@
 
     bucket.get_properties()
 
-    bucket.set_property({"allow_mult": True})
+    bucket.set_property("allow_mult", True)
 
 !SLIDE smaller
 
@@ -63,7 +63,6 @@
 ## Directly from file
 
     @@@ python
-    data = open("hulk.jpg").read()
     hulk = bucket.new_binary_from_file("hulk", "hulk.jpg")
     hulk.store()
 
