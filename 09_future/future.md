@@ -18,6 +18,18 @@
 
 !SLIDE
 
+# Plug
+
+#### Interested in learning about support, consulting,
+#### or Enterprise features?
+#### Email <info@basho.com>
+#### or go to <http://www.basho.com/contact.php>
+#### to talk with us.
+
+#### <http://www.basho.com>
+
+!SLIDE
+
 # Questions
 
 !SLIDE bullets
