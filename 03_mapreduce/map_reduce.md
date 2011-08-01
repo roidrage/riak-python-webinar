@@ -8,12 +8,12 @@
 
     @@@ python
     query = client.add(["programming-languages", "python"])
-query.map("""
-  function(value) {
-    var doc = Riak.mapValuesJson(value)[0];
-    return [doc.flavour];
-  }
-""").reduce("Riak.reduceSort")
+    query.map("""
+      function(value) {
+        var doc = Riak.mapValuesJson(value)[0];
+        return [doc.flavour];
+      }
+    """).reduce("Riak.reduceSort")
     query.run()
 
 !SLIDE smaller
