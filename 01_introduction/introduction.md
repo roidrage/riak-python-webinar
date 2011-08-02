@@ -1,3 +1,7 @@
+!SLIDE center
+
+<img src="first_slide.png" height="100%" width="100%"/>
+
 !SLIDE 
 
 # Webinar: Riak and Python #
@@ -17,7 +21,7 @@
 
 * Long History at Basho
 * Language of Choice for Several Internal Tools
-* Python one of the Earliest Supported Languages
+* One of the Earliest Supported Languages
 * More and More Pythonistas Discover Riak
 
 !SLIDE bullets incremental
@@ -49,6 +53,6 @@
 # The Python Client #
 
 * Protocol Buffers and HTTP
-* MapReduce support
-* Search built-in
+* MapReduce Support
+* Search Built in
 
