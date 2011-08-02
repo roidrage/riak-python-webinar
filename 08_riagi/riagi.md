@@ -27,7 +27,7 @@
 
 * Django: Web Interface
 * Riak KV: Metadata
-* Luwak: File Storage
+* Riak KV: File Storage
 * Riak Search: Lookups
 
 !SLIDE
@@ -42,10 +42,11 @@
 
 # [It's Open Source](http://github.com/basho/riagi)!
 
-!SLIDE bullets
+!SLIDE bullets incremental
 
 # Deployment
 
+* The Cloud (EC2)
 * Django App runs on [dotCloud](http://dotcloud.com)
 * Riak runs on [Scalarium](http://scalarium.com)
 * [Chef Cookbooks](https://github.com/mattmatt/scalarium-riak) to Install/Setup Riak
