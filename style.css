@@ -63,3 +63,7 @@ p.caption {
   bottom: 20px;
   right: 20px;
 }
+
+#footer {
+  display: none;
+}

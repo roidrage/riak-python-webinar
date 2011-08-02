@@ -16,6 +16,18 @@
 * Failover
 * Degrading Reads
 
+!SLIDE bullets incremental
+
+# Thanks To
+
+* All contributors
+* Eric Moritz
+* The Formspring Team
+
+!SLIDE
+
+### We're always looking for more contributors!
+
 !SLIDE
 
 # Plug

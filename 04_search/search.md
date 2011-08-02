@@ -63,3 +63,13 @@
                       {"id": "hulk",
                        "name": "Hulk",
                        "skill": "Hulksmash!"})
+
+!SLIDE small
+
+# Query Documents #
+
+    @@@ python
+    client.solr().query("superheroes",
+                         "name:Hulk",
+                         sort="id",
+                         rows=5)

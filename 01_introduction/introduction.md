@@ -1,7 +1,3 @@
-!SLIDE center
-
-<img src="first_slide.png" height="100%" width="100%"/>
-
 !SLIDE 
 
 # Webinar: Riak and Python #
@@ -39,6 +35,7 @@
 * Scalable Session Store
 * Scalable Full Text Search
 * File Storage (Luwak)
+* Activity Feeds
 
 !SLIDE bullets incremental
 
