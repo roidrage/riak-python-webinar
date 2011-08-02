@@ -7,7 +7,7 @@
 # JavaScript #
 
     @@@ python
-    query = client.add(["programming-languages", "python"])
+    query = client.add("programming-languages", "python")
     query.map("""
       function(value) {
         var doc = Riak.mapValuesJson(value)[0];

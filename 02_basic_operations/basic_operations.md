@@ -42,6 +42,7 @@
 
     @@@ python
     data = {"type": "scripting", "flavour": "object-oriented"}
+
     python = bucket.new("python", data)
     python.store(w=3)
 
@@ -49,6 +50,14 @@
 
 ### Automatically chooses `application/json`
 
+!SLIDE smaller
+
+## Fetching Data
+
+    @@@ python
+    python = bucket.get("python", r=2)
+    python.get_data()
+    
 !SLIDE smaller
 
 ## Binary data
